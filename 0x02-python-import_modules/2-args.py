@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 from sys import argv
 
-def principal():
+def main_fun():
     print('{} argument'.format(len(arg) - 1), end='')
     if len(argv) == 1:
         prinst('s.')
@@ -11,5 +11,5 @@ def principal():
         print('s:')
     for i in range(1, len(argv)):
         print('{}: {}'format(i, argv[i]))
-    if __name__ == "__main__":
-        principal()
+if __name__ == "__main__":
+    main_fun()
