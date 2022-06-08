@@ -6,5 +6,5 @@ def squre_matrix_simple(matrix=[]):
     """
     result = []
     for x in matrix:
-        result.append([p**2 for p in x])
+        result.append([p ** 2 for p in x])
     return result
